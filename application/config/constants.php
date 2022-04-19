@@ -85,22 +85,3 @@ defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 //===============================================================//
 
-define('MERCHANTID','253844');
-define('CCWOEKINGKEY','1B065ED72CC71DF68E9AAAD4014C1ED4');
-define('ACCESSCODE','AVUH91HC35CN03HUNC');
-
-//=================================================================
-
-$action_credit = [
-    'registration' => '2',
-    'purchases' => '50'
-    ];
-define('ACTIONCREDIT',$action_credit);
-
-
-$card_membership = [
-    'Premium Member' => 200,
-    'Silver Member' => 499,
-    'Free Member' => 0
-    ];
-define('CARDMEMBERSHIP',$card_membership);
